@@ -1,0 +1,10 @@
+- changeSet:
+  id: 1234
+  author: adam.sandler
+  changes:
+    - sqlFile:
+        encoding: utf8
+        path: classpath:/org/springframework/batch/core/schema-mysql.sql
+        relativeToChangelogFile: false
+        splitStatements: true
+        stripComments: true
